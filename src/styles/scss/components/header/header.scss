@@ -1,0 +1,78 @@
+
+.header {
+  $logo-dimensions:26px;
+
+  &__content {
+   @extend %flex-between
+  }
+  &__start{
+    @extend %flex-between;
+    display:flex;
+    gap: 73px;
+  }
+
+  &__logo a{
+    background-color:acc;
+    border-radius: 50%;
+width: $logo-dimensions;
+    height: $logo-dimensions;
+    transition:3s;
+  }
+
+  &__main-menu ul{
+    @extend %list-unstyled;
+    display: flex;
+    gap: 42px;
+  }
+
+  &__end{
+    @extend %flex-between
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//.header{
+//  border-bottom: 1px solid black;
+//  padding: 25px 0;
+//
+//  &__links{
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+//    list-style: none;
+//    gap: 15px;
+//    margin: 0;
+//  }
+//
+//
+//&__link{
+//  color: #697ca6;
+//  text-decoration: none;
+//  text-transform: uppercase;
+//  font-weight: bold;
+//  font-size: 12px;
+//  border-bottom: 2px solid transparent;
+//  transition: 3s;
+//}
+//
+//
+//&__link-active{
+//  color: #5e81fe;
+//  text-decoration: none;
+//  font-weight: bold;
+//  font-size: 12px;
+//}
+//
+//}
